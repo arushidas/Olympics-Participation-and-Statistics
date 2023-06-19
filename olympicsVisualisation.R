@@ -6,13 +6,13 @@ library(plotly)
 library(maps)
 
 #loading the dataset
-sum <- read.csv("C:/Users/Hp/Documents/TUOS_Coursework/Data Visualisation/summer.csv")
+sum <- read.csv("datasets/summer.csv")
 View(sum)
 
-win <- read.csv("C:/Users/Hp/Documents/TUOS_Coursework/Data Visualisation/winter.csv")
+win <- read.csv("datasets/winter.csv")
 View(win)
 
-dict <- read.csv("C:/Users/Hp/Documents/TUOS_Coursework/Data Visualisation/dictionary.csv")
+dict <- read.csv("datasets/dictionary.csv")
 View(dict)
 
 ###########################################################
